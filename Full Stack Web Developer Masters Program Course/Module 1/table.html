@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table in HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid crimson;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        padding: 10px;
+      }
+      /*
+      zebra-striped rows
+      tr:nth-child(even) {
+        background-color: lightpink;
+      }
+      */
+    </style>
+  </head>
+  <body>
+    <!--
+    table, tr, td, th
+    caption tag
+    rowspan, colspan
+    Collapsing borders
+    Zebra-striping
+  -->
+    <table>
+      <caption>
+        Ticket sales for carnival
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price/ticket</th>
+          <th>Total</th>
+          <th>Email id</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Mark</td>
+          <td rowspan="2">10</td>
+          <td rowspan="2">2</td>
+          <td rowspan="2">20</td>
+          <td>mark@example.com</td>
+        </tr>
+        <tr>
+          <td>mark@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Sasha</td>
+          <td>5</td>
+          <td>3</td>
+          <td>15</td>
+          <td>sasha@example.com</td>
+        </tr>
+        <tr>
+          <td>Sunil</td>
+          <td>20</td>
+          <td>5</td>
+          <td>100</td>
+          <td>sunil@example.com</td>
+        </tr>
+        <tr>
+          <td>Sakshi</td>
+          <td>25</td>
+          <td>10</td>
+          <td>250</td>
+          <td>sakshi@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
