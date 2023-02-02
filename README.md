@@ -6,6 +6,6 @@
     - Handling events with JavaScript
     - Twitter Bootstrap 3
     - Twitter Bootstrap 3 Project
-    - Bootstrap ScollSpy, jQuery and jquery UI
+    - Bootstrap ScrollSpy, jQuery and jquery UI
     - Ajax, Google APIs, social Plugins
     - Project - Building Website Tour
